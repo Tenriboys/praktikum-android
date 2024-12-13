@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:praktikum03/studikasus03.dart';
+import 'kalkulator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,11 +8,12 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Praktikum03',
-      home: StudiKasus03(), // Corrected class name to match the file name
+    return MaterialApp(
+      title: 'Pertemuan 04',
+      home: Pegawai(),
     );
   }
 }
